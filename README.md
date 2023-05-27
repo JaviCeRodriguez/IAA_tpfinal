@@ -10,6 +10,8 @@
 (venv) >> pip install -r requirements.txt
 ```
 
+Create `.env` file and put same keys from `.env.example` (or get credentials from [Web API Dashboard](https://developer.spotify.com/dashboard) of Spotify)
+
 ## Explanation
 
 WIP
