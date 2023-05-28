@@ -15,3 +15,15 @@ Create `.env` file and put same keys from `.env.example` (or get credentials fro
 ## Explanation
 
 WIP
+
+## ToDo:
+
+✅ Hecho, ⚠️ En progreso, ❌ Sin hacer
+
+- ✅ Conseguir playlists dado un género
+- ✅ Conseguir tracks a partir de las playlists
+- ✅ Conseguir audio features a partir de los tracks
+- ⚠️ Limpiar dataframes durante todo el proceso y manipular errores (si surgen)
+- ⚠️ Documentar procesos
+- ❌ Generar script utils/etl.py con funciones usadas en la notebook (y crear las que falten)
+- ❌ Ejecutar funciones de utils/etl.py para generar datasets de audio features para cada género
