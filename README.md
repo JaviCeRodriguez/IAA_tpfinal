@@ -16,8 +16,10 @@ Create `.env` file and put same keys from `.env.example` with his values (or get
 
 ## Notebooks
 
-- [Data extraction from Spotify - ETL]('ETL_Spotify.ipynb')
-- [Preprocessing data for EDA]('Preprocessing_EDA.ipynb')
+| Título | Ver notebook en colab |
+|:-------|:----------------------|
+| [Data extraction from Spotify - ETL](ETL_Spotify.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JaviCeRodriguez/IAA_tpfinal/blob/main/ETL_Spofiy.ipynb) |
+| [Preprocessing data for EDA](Preprocessing_EDA.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JaviCeRodriguez/IAA_tpfinal/blob/main/Preprocessing_EDA.ipynb) |
 
 ## Explanation
 
