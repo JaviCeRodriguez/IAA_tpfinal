@@ -4,3 +4,4 @@ python-dotenv==1.0.0
 jupyterlab
 tqdm
 seaborn
+scikit-learn
