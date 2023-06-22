@@ -18,12 +18,12 @@ Create `.env` file and put same keys from `.env.example` with his values (or get
 
 | Título | Ver notebook en colab |
 |:-------|:----------------------|
-| [Data extraction from Spotify - ETL](ETL_Spotify.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JaviCeRodriguez/IAA_tpfinal/blob/main/ETL_Spofiy.ipynb) |
-| [Preprocessing data for EDA](Preprocessing_EDA.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JaviCeRodriguez/IAA_tpfinal/blob/main/Preprocessing_EDA.ipynb) |
+| [Prediction genres (ETL + EDA + Model)](prediction_genres.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JaviCeRodriguez/IAA_tpfinal/blob/main/prediction_genres.ipynb) |
+| [ETL for extract genres by playlist](spotify_get_playlist_test.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JaviCeRodriguez/IAA_tpfinal/blob/main/spotify_get_playlist_test.ipynb) |
 
 ## Explanation
 
-WIP
+View PDF document about this proyect: `TP IAA - Géneros de canciones en Spotify.pdf`
 
 ## ToDo:
 
@@ -35,7 +35,7 @@ WIP
 - ✅ Conseguir tracks a partir de las playlists
 - ✅ Conseguir audio features a partir de los tracks
 - ✅ Limpiar dataframes durante todo el proceso y manipular errores (si surgen)
-- ⚠️ Documentar procesos
+- ✅ Documentar procesos
 - ✅ Generar script utils/etl.py con funciones usadas en la notebook (y crear las que falten)
 - ✅ Ejecutar funciones de utils/etl.py para generar datasets de audio features para cada género
 
@@ -47,11 +47,15 @@ WIP
 
 #### EDA
 
-- ❌ Realizar análisis en géneros seleccionados y obtener estadísticas básicas
-- ❌ Analizar si hay ciertos patrones en las audio features
-- ❌ Chequear posibles correlaciones
-- ❌ Generar un reporte mediante gráficos
+- ✅ Realizar análisis en géneros seleccionados y obtener estadísticas básicas
+- ✅ Analizar si hay ciertos patrones en las audio features
+- ✅ Chequear posibles correlaciones
+- ✅ Generar un reporte mediante gráficos
 
 #### Model trainning
 
-wip
+- ✅ Evaluar modelos de clasificación
+- ✅ Implementación de modelos teniendo en cuenta los criterios definidos en el EDA
+- ✅ Obtener métricas de cada modelo y elegir el mejor
+- ✅ Predecir géneros a partir del modelo elegido
+- ✅ Generar reporte (diapositiva)
