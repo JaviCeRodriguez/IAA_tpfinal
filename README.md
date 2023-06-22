@@ -18,7 +18,7 @@ Create `.env` file and put same keys from `.env.example` with his values (or get
 
 | Título | Ver notebook en colab |
 |:-------|:----------------------|
-| [Prediction genres (ETL + EDA + Model)](prediction_genres.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JaviCeRodriguez/IAA_tpfinal/blob/main/prediction_genres.ipynb) |
+| [Genres classification (ETL + EDA + Model)](genre_classification.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JaviCeRodriguez/IAA_tpfinal/blob/main/genre_classification.ipynb) |
 | [ETL for extract genres by playlist](spotify_get_playlist_test.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JaviCeRodriguez/IAA_tpfinal/blob/main/spotify_get_playlist_test.ipynb) |
 
 ## Explanation
